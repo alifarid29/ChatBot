@@ -2,7 +2,7 @@
 Bookshop Chatbot – Standalone Tkinter GUI
 Run:  python chatbot_ui.py
 Requires the trained model (bookshop_chatbot_model.h5), words.pkl,
-classes.pkl and the intents (1).json / data.csv to be in the same folder.
+classes.pkl and the intents.json / data.csv to be in the same folder.
 """
 
 import json
@@ -24,7 +24,7 @@ lemmatizer = WordNetLemmatizer()
 MODEL_PATH   = "bookshop_chatbot_model.h5"
 WORDS_PATH   = "words.pkl"
 CLASSES_PATH = "classes.pkl"
-INTENTS_PATH = "intents (1).json"
+INTENTS_PATH = "intents.json"
 DATA_PATH    = "data.csv"
 
 model    = load_model(MODEL_PATH)
